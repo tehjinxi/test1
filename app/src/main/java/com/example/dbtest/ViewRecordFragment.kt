@@ -36,6 +36,7 @@ class ViewRecordFragment : Fragment() {
                name = name + s.studentid + " " + s.studentName + "\n"
             }
 //
+            
           txtResult.setText(name)
         }
     }
